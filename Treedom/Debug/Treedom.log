@@ -1,0 +1,53 @@
+﻿Build started 12/5/2013 9:10:07 PM.
+     1>Project "C:\Users\Horo\N-enGineR\Treedom\Treedom.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Horo\N-enGineR\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\N-enGineR.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BranchingMesh.cpp Composition.cpp Console.cpp EngineManager.cpp Factory.cpp GameLogic.cpp GameWindow.cpp Graphics.cpp Mesh.cpp Precompiled.cpp Sprite.cpp TextSerialization.cpp Transform.cpp WinMain.cpp
+         WinMain.cpp
+         Transform.cpp
+         TextSerialization.cpp
+         Sprite.cpp
+         Precompiled.cpp
+         Compiling Precompiled Header File...
+         Mesh.cpp
+         Graphics.cpp
+         GameWindow.cpp
+         GameLogic.cpp
+         Factory.cpp
+     1>c:\users\horo\n-enginer\treedom\factory.cpp(14): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         EngineManager.cpp
+         Console.cpp
+     1>c:\users\horo\n-enginer\treedom\console.cpp(11): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(249) : see declaration of 'freopen'
+         Composition.cpp
+         BranchingMesh.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Horo\N-enGineR\Debug\N-enGineR.exe" /NOLOGO dxerr.lib d3dx9d.lib d3d9.lib winmm.lib fmodex_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\N-enGineR.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Horo\N-enGineR\Debug\N-enGineR.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Horo\N-enGineR\Debug\N-enGineR.lib" /MACHINE:X86 Debug\BranchingMesh.obj
+         Debug\Composition.obj
+         Debug\Console.obj
+         Debug\EngineManager.obj
+         Debug\Factory.obj
+         Debug\GameLogic.obj
+         Debug\GameWindow.obj
+         Debug\Graphics.obj
+         Debug\Mesh.obj
+         Debug\Precompiled.obj
+         Debug\Sprite.obj
+         Debug\TextSerialization.obj
+         Debug\Transform.obj
+         Debug\WinMain.obj
+         Treedom.vcxproj -> C:\Users\Horo\N-enGineR\Debug\N-enGineR.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Horo\N-enGineR\Debug\N-enGineR.exe;#1" /manifest "Debug\N-enGineR.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\N-enGineR.unsuccessfulbuild".
+         Touching "Debug\N-enGineR.lastbuildstate".
+     1>Done Building Project "C:\Users\Horo\N-enGineR\Treedom\Treedom.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.24

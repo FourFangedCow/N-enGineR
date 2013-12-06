@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Headers">
+      <UniqueIdentifier>{e4d87eae-cc96-464b-93b2-906f179db581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Headers\Precompiled">
+      <UniqueIdentifier>{9b493af0-4ae7-45f4-b85f-de151893e71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{c25af7a6-c6b9-48a4-83ba-0fc2ea7283c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Manager">
+      <UniqueIdentifier>{071a6540-2057-4c29-901e-57774d2aa6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems">
+      <UniqueIdentifier>{537d1aa8-3c74-4a87-b431-e94a6a6dc746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems\Window">
+      <UniqueIdentifier>{f6892996-3e7d-46db-be02-d049adfa732d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Headers\Math">
+      <UniqueIdentifier>{d15edb83-0ebf-401f-8779-32129d7cbcc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems\Graphics">
+      <UniqueIdentifier>{19a11571-9982-43e0-a154-f16590eac24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems\Debug">
+      <UniqueIdentifier>{c6d3d56f-d800-434f-b447-3006d8df0d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{d5d9af00-6992-4474-942a-00a91a46f995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Components">
+      <UniqueIdentifier>{1e79541b-e6eb-45c4-b021-5f9cf5030905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Components\Sprite">
+      <UniqueIdentifier>{04e41fa4-0f85-489d-9b67-5b3a4d547718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems\Factory">
+      <UniqueIdentifier>{6888791f-b258-49b7-866e-8fde1d13f3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Serialization">
+      <UniqueIdentifier>{291dba5f-abc1-4e02-82cf-209a25d5aa3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Components\Transform">
+      <UniqueIdentifier>{37a69256-2d99-43fc-bce7-5f46f87ee17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Object Files">
+      <UniqueIdentifier>{2a04d210-94c5-4802-959c-56a931779687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems\GameLogic">
+      <UniqueIdentifier>{51aa06c6-f86c-496c-b622-523203279a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Components\Mesh">
+      <UniqueIdentifier>{27a07531-a638-4685-884c-3814d9a49b20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineManager.cpp">
+      <Filter>Source Files\Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Precompiled.cpp">
+      <Filter>Source Files\Headers\Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files\Engine\Systems\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Engine\Systems\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Engine\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Objects\Components\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Composition.cpp">
+      <Filter>Source Files\Objects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\Engine\Systems\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSerialization.cpp">
+      <Filter>Source Files\Engine\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Objects\Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>Source Files\Engine\Systems\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Objects\Components\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="BranchingMesh.cpp">
+      <Filter>Source Files\Objects\Components\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineManager.h">
+      <Filter>Source Files\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.h">
+      <Filter>Source Files\Headers\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Precompiled.h">
+      <Filter>Source Files\Headers\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsIncludes.h">
+      <Filter>Source Files\Headers\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXIncludes.h">
+      <Filter>Source Files\Headers\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Source Files\Engine\Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMath.h">
+      <Filter>Source Files\Headers\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDiagnostic.h">
+      <Filter>Source Files\Headers\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Engine\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source Files\Engine\Systems\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Source Files\Objects\Components\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Composition.h">
+      <Filter>Source Files\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Source Files\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentIds.h">
+      <Filter>Source Files\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Source Files\Engine\Systems\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentCreator.h">
+      <Filter>Source Files\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization.h">
+      <Filter>Source Files\Engine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSerialization.h">
+      <Filter>Source Files\Engine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\Objects\Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Source Files\Engine\Systems\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Objects\Components\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\ObjectLinkedList.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BranchingMesh.h">
+      <Filter>Source Files\Objects\Components\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Objects\Triangle.txt">
+      <Filter>Source Files\Objects\Object Files</Filter>
+    </None>
+    <None Include="Objects\Square.txt">
+      <Filter>Source Files\Objects\Object Files</Filter>
+    </None>
+    <None Include="Objects\Triangle2.txt">
+      <Filter>Source Files\Objects\Object Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
